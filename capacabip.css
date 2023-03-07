@@ -1,0 +1,49 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1528392175875-4ce3ab32663c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80);
+    background-position: -29px 1056px;  
+}
+
+.container-fluid {
+    margin-top: 20px;
+}
+
+nav {
+    background-color:black;
+    height: 60px;
+}
+
+nav a {
+    font-size: 3vh;
+    color: white;
+}
+
+#logo {
+    background-image: url("logo.png") ;
+    height: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#imagenescentrales {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+
+  img {
+    max-width: 80%;
+    border: black  solid 2px;
+    border-radius: 10%;
+    
+}
+
+#PresentacionInicial {
+    margin-top: 50px;
+    color: black;
+    -webkit-text-stroke: gray;
+}
